@@ -1,0 +1,143 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+ body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #0ca3d2;
+}
+
+header{
+  height: 70px;
+  text-align: right;
+  padding-top: 10px;
+}
+
+div{
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+div h1{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+
+  margin-bottom: 70px;
+ }
+
+
+
+.theme{
+  margin-bottom: 10px;
+  width: 700px;
+}
+
+.author{
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.details{
+  margin-top: 10px;
+  width: 800px;
+  height: 600px;
+}
+
+div form input.reset{
+  margin-top: 10px;
+  float: right;
+}
+
+div form input.sub{
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+
+header a.login_out{
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #8e8ed2;
+  border: 1px solid #a3a3e4;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+header a.query{
+  border:1px solid #a3a3e4;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #8e8ed2;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+header label{
+  margin-right: 30px;
+  font-size: 14px;
+  margin-top: 20px;
+  color: red;
+}
+
+

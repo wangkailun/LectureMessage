@@ -1,0 +1,187 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+ body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #0ca3d2;
+}
+
+
+ header{
+ 	height: 70px;
+ 	width: 100%;
+  text-align: right;
+  padding-top: 10px;
+ }
+
+ div.main{
+ 	text-align: center;
+ }
+
+ div.main h1{
+ 	margin:0 auto;
+ 	font-size: 30px;
+ 	margin-top: 20px;
+ 	margin-bottom: 30px;
+ }
+
+ div.main div.body_of_card div.card{
+ 	margin:0 auto 30px;
+ 	width: 800px;
+ 	height: 150px;
+ 	background-color: rgb(124, 205, 236);
+  text-align: left;
+
+ }
+ 
+ .theme{
+  margin-top: 10px;
+ 	font-size:25px;
+  color: #1c5435;
+  margin-left: 10px;
+ }
+
+ .author{
+  margin-left: 10px;
+  font-size: 10px;
+  color: #9494e4;
+ }
+ 
+ .time{
+  margin-left: 10px;
+  font-size: 10px;
+  color: #9494e4;
+ }
+
+ .details{
+  margin-left: 10px;
+  font-size: 15px;
+  color: #164240;
+ }
+
+ .delete{
+  font-size: 15px;
+  text-decoration: none;
+  color: #b78077;
+  background-color: #b0c8d4;
+  border-radius: 3px;
+  border: 1px solid #b79999;
+  position: relative;
+  left:750px;
+  top: 30px;
+ }
+
+ .change{
+  font-size: 15px;
+  text-decoration: none;
+  color: #b78077;
+  background-color: #b0c8d4;
+  border-radius: 3px;
+  border: 1px solid #b79999;
+  position: relative;
+  left:680px;
+  top: 30px;
+ }
+
+ .login_out{
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #8e8ed2;
+  border: 1px solid #a3a3e4;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 3px;
+ }
+
+ .query{
+  border:1px solid #a3a3e4;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #8e8ed2;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+ }
+ header label{
+  margin-right: 30px;
+  font-size: 14px;
+  margin-top: 20px;
+  color: red;
+}
+
+.boot{
+  position: fixed;
+  bottom: 10px;
+}
+
+.delete1{
+  font-size: 15px;
+  text-decoration: none;
+  color: #b78077;
+  background-color: #b0c8d4;
+  border-radius: 3px;
+  border: 1px solid #b79999;
+  position: relative;
+  left:720px;
+  top: 30px;
+}
+ 
+ 
+ 
